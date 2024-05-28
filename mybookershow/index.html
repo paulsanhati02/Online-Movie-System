@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+   <html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css">
+
+
+      <link rel="stylesheet" href="images 1\Css\style.css">
+
+      <title>Responsive navbar with search and login - Bedimcode</title>
+   </head>
+   <body>
+      <header class="header" id="header">
+         <nav class="nav container">
+            <a href="index.html" class="nav__logo">MovieShowBooker</a>
+
+            <div class="nav__menu" id="nav-menu">
+               <ul class="nav__list">
+                  <li class="nav__item">
+                     <a href="home.html" class="nav__link">Home</a>
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="foods.html" class="nav__link">Foods</a>
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="feedback.html" class="nav__link">Feedback</a>
+                  </li>
+               </ul>
+
+
+               <div class="nav__close" id="nav-close">
+                  <i class="ri-close-line"></i>
+               </div>
+            </div>
+
+            <div class="nav__actions">
+
+               <i class="ri-search-line nav__search" id="search-btn"></i>
+
+               <i class="ri-user-line nav__login" id="login-btn"></i>
+
+               <div class="nav__toggle" id="nav-toggle">
+                  <i class="ri-menu-line"></i>
+               </div>
+            </div>
+         </nav>
+      </header>
+
+
+      <div class="search" id="search">
+         <form action="" class="search__form">
+            <i class="ri-search-line search__icon"></i>
+            <input type="search" placeholder="What are you looking for?" class="search__input">
+         </form>
+
+         <i class="ri-close-line search__close" id="search-close"></i>
+      </div>
+
+
+      <div class="login" id="login">
+         <form action="" class="login__form">
+            <h2 class="login__title">LOG IN</h2>
+            
+            <div class="login__group">
+               <div>
+                  <label for="email" class="login__label">Email</label>
+                  <input type="email" placeholder="Write your email" id="email" class="login__input">
+               </div>
+               
+               <div>
+                  <label for="password" class="login__label">Password</label>
+                  <input type="password" placeholder="Enter your password" id="password" class="login__input">
+               </div>
+            </div>
+
+            <div>
+               <p class="login__signup">
+                  YOU DO NOT HAVE AN ACCOUNT? <a href="Signup.html">SIGN UP</a>
+               </p>
+   
+               <a href="#" class="login__forgot">
+                  YOY FORGOT YOUR PASSWORD
+               </a>
+   
+               <button type="submit" class="login__button">LOG IN</button>
+            </div>
+         </form>
+
+         <i class="ri-close-line login__close" id="login-close"></i>
+      </div>
+
+
+      <main class="main">
+         <img src="images 2\banner.jpg" alt="image" class="main__bg">
+      </main>
+      
+
+      <script src="images 1\Css\script.js"></script>
+   </body>
+</html>
+
+
+<br>
+<div class="footer">
+  <div class="container">
+     <div class="footer-sect">
+        <h2>Welcome to  Show Movies Booker!</h2>
+        <p>“We are a passionate team of software developers dedicated to revolutionizing the way you book movie tickets. Our project, Movies Booker, aims to provide a seamless and enjoyable experience for movie enthusiasts. With our intuitive and user-friendly website, you can easily browse and book tickets for your favorite movies in just a few clicks.We hope you enjoy using Movies Booker as much as we enjoyed creating it. Sit back, relax, and let us handle your movie ticket bookings. Enjoy the show!”</p>
+        <a href="https://www.facebook.com/BookMyShowIN?mibextid=ZbWKwL"><img src="images 2\Facebook.png" width="50" height="50"> </a>
+        <a href="https://www.instagram.com/bookmyshowin?igsh=MXB2MHdvZXIzNndjcw=="><img src="images 2\logo-ig-png-32473.png" width="50" height="50"> </a>
+     </div>
+     <div class="footer-sect">
+        <h2>Quick Links</h2>
+        <ul class="footer-menu">
+           <li><a href="HOME.html"> > HOME</a></li>
+           <li><a href="foods.html"> > FOODS</a></li>
+           <li><a href="feedback.html"> > FEEDBACK</a></li>
+        </ul>
+     </div>
+     <div class="footer-sect">
+        <h2>Contact Info</h2>
+        <ul class="footer-contact">
+           <li><b>Email :</b> reply@showmoviebooker.com </li>
+           <li><b>Call :</b> +91 -123 456 7890 </li>
+           <li><b>Fax :</b> +91 -123 4567890 </li>
+           <li><b>Website :</b> https://www.showmoviebooker.com </li>
+        </ul>
+     </div>
+  </div>
+</div>
+<style>
+  * {
+    margin:0px;
+    padding:0px;
+}
+  .footer {
+    background-color:#f84a4a;
+    padding:90px 30px;
+    width:100%;
+    float:left;
+}
+.footer-sect {
+    width:33%;
+    float:left;
+}
+.footer-sect h2 {
+    color:#fff;
+    margin-bottom: 20px;
+}
+.footer-sect p {
+    color: #fff;
+    line-height: 22px;
+    padding:0px 30px 20px 0px;
+}
+.footer-menu li {
+    width: 50%;
+    float: left;
+    margin-bottom: 10px;
+}
+.footer-menu li a {
+    color:#fff;
+    text-decoration: none;
+}
+.footer-contact li {
+    margin-bottom:15px;
+    list-style: none;
+    color: #fff;
+}
+</style>
